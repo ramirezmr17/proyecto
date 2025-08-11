@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta 500 USD – Día 1</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      margin: 0;
+      padding: 0;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00d4ff;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .meta {
+      font-size: 1.2rem;
+      color: #00ffea;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0 20px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    }
+
+    footer {
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.3);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Reto: Alcanzar 500 USD Mensuales</h1>
+    <p>Este es el comienzo de mi camino para generar ingresos online.</p>
+    <div class="meta">ES UNA REALIDAD MI OBJETIVO, YA ES ALGO REAL Y YA GANO MÁS DE 500 USD AL MES</div>
+  </header>
+
+  <section class="galeria">
+    <img src="abundancia.jpg" alt="Portada de mi reto de 500 USD mensuales">
+    <img src="100k.jpg" alt="100k">
+    <img src="apartamento.jpg" alt="Apartamento de lujo">
+    <img src="mercedes.jpg" alt="Mercedes">
+    <img src="mt09.jpg" alt="Moto MT-09">
+    <img src="rolex.webp" alt="Reloj Rolex">
+    <img src="traiding.jpg" alt="Trading">
+    <img src="Viajes.jpg" alt="Viajes por el mundo">
+  </section>
+
+  <footer>
+    © 2025 Mi Reto Personal – Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
